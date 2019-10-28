@@ -32,6 +32,7 @@ def lgb_rmsle(preds, train_data):
 if __name__ == '__main__':
 
     args = parser.parse_args()
+
     # Json Path
     json_path = os.path.join(args.model_dir, 'params.json')
     assert os.path.isfile(json_path), "No json configuration file found at {}".format(json_path)
@@ -61,7 +62,7 @@ if __name__ == '__main__':
     eval_data = lgb.Dataset(X_valid, label=y_valid)
 
     # Train LGBM Model
-    gbm = lgb.train(params, train_data, feval=lgb_rmsle, num_boost_round=1000000, valid_sets=[train_data, eval_data],valid_names=['train','valid'], early_stopping_rounds=1000, verbose_eval=100,)
+    gbm = lgb.train(params, train_data, feval=lgb_rmsle, num_boost_round=1000000, valid_sets=[train_data, eval_data],valid_names=['train','valid'], early_stopping_rounds=1000, verbose_eval=100)
 
     # Save Model as Pickle Format
     os.chdir(args.model_dir)
