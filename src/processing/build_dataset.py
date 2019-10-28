@@ -275,6 +275,7 @@ if __name__ == '__main__':
     sparse.save_npz('X_test.npz', X_test)
     y_test.to_hdf('y_test.hdf', 'test')
 
+
     ## Columns for LGBM
     os.chdir('/Volumes/SeagateExternal/Masters_Thesis_Tokyo_Rent_Prediction/data/baseline_model/')
     pd.DataFrame(allcolumns).to_csv('columns.csv', index=False)
