@@ -1,0 +1,14 @@
+{
+  "bagging_fraction": 0.9782279220835148,
+  "colsample_by_tree": 0.6754881275885504,
+  "feature_fraction": 0.8637460569169225,
+  "lambda_l1": 0.3118572704808037,
+  "lambda_l2": 2.632115899140824,
+  "learning_rate": 0.1287223662850795,
+  "max_depth": 7,
+  "min_child_weight": 17.674365567330394,
+  "min_split_gain": 0.01362856161502778,
+  "num_leaves": 41,
+  "subsample": 0.6339512828540328,
+  "verbose":-1
+}
