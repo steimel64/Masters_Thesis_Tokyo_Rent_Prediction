@@ -1,7 +1,8 @@
 # A Time Independent Gradient Boosting Machine for Rent Prediction in Tokyo 23 Special Wards with Geospatial and Environmental Features
 William Steimel
 
-Department of Green Science and Engineering - Sophia University (Tokyo, Japan)   
+Department of Information Science - Sophia University (Tokyo, Japan)   
+Masters of Science in Green Science and Engineering. 
 
 This repository contains all of the files for my master's thesis at Sophia University. 
 
